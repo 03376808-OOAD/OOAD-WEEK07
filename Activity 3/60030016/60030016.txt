@@ -1,0 +1,14 @@
+Generalization Abstraction คือกระบวนการในการนํา Class ที่มีลักษณะเหมือนหรือคล้ายกันหรือมีคุณสมบัติอย่างใดอย่างหนึ่งร่วมกัน (General) มาจัดหมวดหมู่ไว้เเป็ น Class เดียวกันซึ่งกระบวนการ
+ย้อนกลับของ Generalization Abstraction เรียกว่าSpecialization คือการตอบคําถามว่าใน Class หนึ่ง ๆนั้นสามารถจําแนกเป็น Class อะไรได้บ้าง
+
+การทํา Inheritance นั้นเป็นการถ่ายทอดคุณสมบัติทุกอย่างจาก
+Superclass ไม่ว่าจะเป็น Attribute หรือ Function แต่มีข้อควรจําว่า
+Visibility ของ Attributes หรือ Functions นั้นมีความสมพันธ์กับการทํา
+Inheritance เสมอนั่นคือ
+1. Private Attributes/Functions จะถ่ายทอดมาเป็น Private Attributes/Functions ของ Subclass แต่ส่วนที่Inherit มาจาก Private Attributes/Functions มายัง Subclass จะไม่สามารถเข้าถึงได้โดย Function
+ที่มีอยู่ใน Subclass แต่ไม่ได้มาจากการ Inherit
+2. Protected Attributes/Functions ของ Superclass จะถ่ายทอดมาเป็น Protected Attributes/Functions ของ Subclass อนึ่ง การเข้าถึงAttributes และ Functions ของ Subclass ที่เกิดจากการ Inherit ในกรณีนี้
+จะทําได้ โดยผ่าน Function ใดๆ ของ Subclass นั้น โดยไม่คํานึงว่าจะเป็น Function ที่ได้มาจากการ Inherit หรือไม่
+3. Public Attributes/ Functions จะถ่ายทอดมาเป็นPublic Attributes/Functions ของ Subclass เสมอ
+
+Association Abstraction คือ กระบวนการในการสร้างความสัมพันธ์(relationship) ระหว่าง class ต่าง  ๆ ใน Problem domain ที่เราสนใจ โดยเป็นการอธิบายความสัมพันธ์ ของ class ในเชิงกิจกรรม
