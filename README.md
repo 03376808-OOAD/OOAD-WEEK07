@@ -1,4 +1,3 @@
 # OOAD-WEEK07
 
-PlantUML
-http://ogom.github.io/draw_uml/plantuml/
+เขียนเรื่องจาก keyword  ที่กำหนดให้
