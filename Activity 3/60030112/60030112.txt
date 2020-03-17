@@ -1,0 +1,8 @@
+﻿Generalitation Abstraction คือ ลักษณะของ Class ที่มีความสัมพันธ์กันนแง่ของ โครงสร้างที่คล้ายกัน เช่น แมลง มีทั้งแบบปีกแข็งและปีกอ่อน เราไม่สามารถใช้คุณสมบัติของ Aggregation หรือ Association อธิบายได้ เพราะ แมลงไม่ได้ประกอบไปด้วย แมลงปีกแข็งและแมลงปีกอ่อน แต่แมลงสามารถจำแนกออกเป็นปีแข็งและแมลงปีกอ่น เรียนว่า "Generalitation Abstraction"
+กฎเกณฑ์ของการทํา Inheritance ของ Generalitation Abstraction
+	-Private Attributes/Functions จะถ่ายทอดมาเป็น PrivateAttributes/Functions ของ Subclass แต่สวนที่ ่ Inherit มาจาก PrivateAttributes/Functions มายัง Subclass จะไม่สามารถเข้าถึงได้โดย Functionที่มีอยู่ใน Subclass แต่ไม่ได้มาจากการ Inherit
+ 	 -Protected Attributes/Functions ของ Superclass จะถ่ายทอดมาเป็น Protected Attributes/Functions ของ Subclass อนึ่ง การเข้าถึงAttributes และ Functions ของ Subclass ที่เกิดจากการ Inherit ในกรณีนี้จะทําได้ โดยผ่าน Function ใดๆ ของ Subclass นั้น โดยไม่คํานึงว่าจะเป็นFunction ที่ได้มาจากการ Inherit หรือไม่ 
+	-  Public Attributes/ Functions จะถ่ายทอดมาเป็น Public Attributes/Functions ของ Subclass เสมอ
+
+-Associaton Abstraction คือ ความสัมพันธ์ที่อยู่บนความานพันธ์เดียวกัน ซึ่งหมายความว่า สิ่งของทั้งสองสิ่งที่มีความสัมพันธ์ต่อกันเป็นสิ่งของที่มีความสัมพันธ์เท่าเทียมกัน ไม่ใช่องค์ประกอบกัน
+	Relationship, role
