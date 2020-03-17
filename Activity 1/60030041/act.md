@@ -1,6 +1,6 @@
 >Real world object
 '''
-    tangible
+    tangible,
     intangible
 '''
 >object orented programming
