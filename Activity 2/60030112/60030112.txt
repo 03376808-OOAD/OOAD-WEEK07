@@ -1,0 +1,11 @@
+﻿- Classification Abstraction คือ เป็นกระบวนการที่ใช้แยกประเภท (Classify) Object ต่างๆที่อยู่ใน Domain และให้ Concept กับObject ต่างๆเหล่านั้นเพื่อให้ได้ “Class พื้นฐาน” (Fundamental Classes) ที่ต้องการ และ การทำ Classification Abstraction มีการสร้าง Class จาก Object แสดงด้วยสัญลักษณ์ จาก Object ไปยัง Class และ Classification นั้นเป็นสิ่งที่สำคัญที่สุด ในพื้นฐานของ Class 
+	พื้นฐานการทำงานของ Classification Abstraction นั้นจะทำงานตาม Step ตามลำดับ จาก ข้อมูล  Domain form ส่งไปยัง 
+	Step 1. Find Problem Domain คือการค้นหาโดเมนที่มีปัญหา แล้วส่งไป 
+	Step 2. Fidn Objtec and Class From Problem Domain คือการอธิบายส่วนประกอบของ Class  ที่มีปัญหา และสุดท้าย 
+	Step 3. Find Attribute and Method From Class คือ การค้นหาแอตทริบิวต์และวิธีการจากชั้นเรียน
+- Instantiation ใน Classification Abstraction คือ การจำแนกและการสร้างและการตรวจสอบเฉพาะของวัตถุที่แตกต่างของชั้นเรียน
+
+-Aggregation Abstraction คือลักษณะของ Class เป็นองค์ประกอบของ Class หนึ่ง ( “Whole-Part” or “is part of” ) เรียกกระบวนการนี้ว่า "Aggregation Abstraction" เช่น เครื่องคอมพิวเตอร์ เกิดจาก การรวมตัวกันของ Part Class ได้แก่ CPU, Mainboard, Ram ,Harddisk เป็นต้น
+- Cardinallity สำหรับ Aggregation Abstraction คือ การประกอบกันของ Class หรือความสัมพันเชิง ประกอบไปด้วย Class ย่อย แต่ประกอบไปด้วย class ชนิดที่สอง จำนวน 4 ชนิด ขึ้นไป หรืออาจไม่มีเลย ดังนั้นจะเรียกว่า Cardinallity
+- Requived and optional ใน Aggregation Abstraction คือ ถ้าจำเป็นจะใช้ Requived เช่น  รถยนต์ต้องมีเครื่องยนต์ ถ้าไม่มีเครื่องยนต์ รถยนก็จะไม่สามารถวิ่งได้ แต่ถ้าไม่จำเป็นจะใช้ optional เครื่องปรับอากาศในรถยนต์ไม่จําเป็นต้องมีก็ได้หมายถึงไม่มีเครื่องปรับอากาศรถยนต์ก็ยังสามารถวิ่งได้ รถยนต์ไม่จําเป็นต้องมีกล้องมองข้างหลังดังนั้นจึง
+เป็น Optional Component

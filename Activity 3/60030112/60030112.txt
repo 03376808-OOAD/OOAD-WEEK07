@@ -1,0 +1,4 @@
+﻿Generalitation Abstraction
+	Private, Protected, Publice
+Associaton Abstraction
+	Relationship, role
