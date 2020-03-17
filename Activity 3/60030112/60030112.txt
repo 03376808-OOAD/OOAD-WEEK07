@@ -4,5 +4,5 @@
  	 -Protected Attributes/Functions ของ Superclass จะถ่ายทอดมาเป็น Protected Attributes/Functions ของ Subclass อนึ่ง การเข้าถึงAttributes และ Functions ของ Subclass ที่เกิดจากการ Inherit ในกรณีนี้จะทําได้ โดยผ่าน Function ใดๆ ของ Subclass นั้น โดยไม่คํานึงว่าจะเป็นFunction ที่ได้มาจากการ Inherit หรือไม่ 
 	-  Public Attributes/ Functions จะถ่ายทอดมาเป็น Public Attributes/Functions ของ Subclass เสมอ
 
-Associaton Abstraction คือ ความสัมพันธ์ที่อยู่บนความานพันธ์เดียวกัน ซึ่งหมายความว่า สิ่งของทั้งสองสิ่งที่มีความสัมพันธ์ต่อกันเป็นสิ่งของที่มีความสัมพันธ์เท่าเทียมกัน ไม่ใช่องค์ประกอบกัน
+-Associaton Abstraction คือ ความสัมพันธ์ที่อยู่บนความานพันธ์เดียวกัน ซึ่งหมายความว่า สิ่งของทั้งสองสิ่งที่มีความสัมพันธ์ต่อกันเป็นสิ่งของที่มีความสัมพันธ์เท่าเทียมกัน ไม่ใช่องค์ประกอบกัน
 	Relationship, role
