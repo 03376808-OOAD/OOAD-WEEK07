@@ -1,1 +1,14 @@
 #gitignore
+2. classification abstraction
+   states and behaviors
+   instantiation
+   Aggregation abstraction
+   cardinallity
+   required and optional
+ตอบ classification abstraction คือรูปแบบการค้นหา objecy ใน domain ต่างๆโดยจะมีการเก็บข้อมูลและค้นหาหลากหลายรูปแบบโดยในรูปแบบ
+    การค้นหาก็จะมา behaviors ที่แตกต่างกันออกไปตามอุปกรณ์ที่ได้เก็บโดยจะมี states เป็นศูนย์กลาง
+    ส่วนAggregation เป็รการพิจารณาว่าวัตถุหนึ่ง เกิดจากการรวมกันขิงวัตถุอื่นๆหรือไม่การพิจารณาในขั้นตอนนี้
+    จำทไให้มองเห็นภาพกาารรวมกันของ class ที่ต้อมีในดปรแกรมโดยวัตถุย่อยๆที่ประกอบกันจนเป็นวัตถุใหญ่จะต้องมีแนวคินของวัตถุที่ต่างกัน
+    cardinality required optional เป็นการประกอบกันของ class หรือความสัมพันธ์เชิง is pr of
+    สิ่งที่ใช้ในการแสดงจำนวนสมาชิคใน object คือ cardinality ส่วนประกอบที่จำเป็นต้องมีใน objest คือ required ส่วนประกอบที่ไม่จำเป็นต้องมีก็ได้
+    เรียกว่า Optional
